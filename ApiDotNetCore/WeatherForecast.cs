@@ -8,7 +8,7 @@ namespace ApiDotNetCore
 
         public int TemperaturaC { get; set; }
 
-        public int TemperaturaF => 32 + (int)(TemperaturaC / 0.5556);
+        public int TemperatureF => 32 + (int)(TemperaturaC / 0.5556);
 
         public string Sumario { get; set; }
     }
