@@ -31,7 +31,7 @@ namespace ApiDotNetCore.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperaturaC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Sumario = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
         }
