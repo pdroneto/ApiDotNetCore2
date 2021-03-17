@@ -30,7 +30,7 @@ namespace ApiDotNetCore.Controllers
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
-                TemperaturaCelsius = rng.Next(-20, 55),
+                TemperaturaC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
